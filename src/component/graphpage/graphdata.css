@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Fredoka+One&family=Gentium+Book+Plus&family=Labrada&family=Playfair+Display:wght@600&family=Poppins&family=Roboto&family=Rubik&family=Shantell+Sans:ital@1&family=Work+Sans:wght@500&display=swap');
+
+.body {
+    height: 98vh;
+    width: 100%;
+
+    padding-top: 10px;
+
+
+}
+
+.body h1 {
+    font-family: 'Playfair Display', serif;
+    color: #06038D;
+}
+
+.head {
+    font-size: 15px;
+}
+
+.body .graphdiv {
+    width: 100%;
+    display: flex;
+    place-content: center;
+    justify-content: center;
+
+
+}
+
+.body .graphdiv .graphdiv1 {
+    width: 90%;
+    height: 520px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    place-content: center;
+    justify-content: center;
+}
+
+.body .graphdiv .graphdiv1 .graphdiv2 {
+    width: 90%;
+    margin-top: 7px;
+}
+
+path {
+    fill:  #06038D;
+
+}
+.scale{
+    width: 150px;
+    
+   
+ float: right;
+ font-family: 'Labrada', serif;
+ font-size: 15px;
+}
+@media only screen and (max-width: 600px){
+    .body h1{
+        font-size: 23px;
+    }
+
+
+}
